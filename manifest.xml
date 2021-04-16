@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Barracuda Archiver"/>
   <Description DefaultValue="This is a quick shortcut to the Barracuda Archiver"/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon_barracuda.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon_barracuda.png"/>
+  <IconUrl DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/assets/icon_barracuda.png"/>
+  <HighResolutionIconUrl DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/assets/icon_barracuda.png"/>
   <SupportUrl DefaultValue="https://www.customonline.com/"/>
   <AppDomains>
     <AppDomain>https://www.customonline.com</AppDomain>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+        <SourceLocation DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/src/taskpane/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -73,13 +73,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon_barracuda.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon_barracuda.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon_barracuda.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/assets/icon_barracuda.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/assets/icon_barracuda.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/assets/icon_barracuda.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://cquarterz.github.io/Barracuda-Archiver/src/taskpane/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Barracuda Archiver"/>
