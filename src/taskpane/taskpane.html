@@ -5,7 +5,9 @@
 <!-- https://mas.barracudanetworks.com/ -->
 
 <head>
-    <meta http-equiv="refresh" content="0; URL=https://mas.barracudanetworks.com/" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+
     <!--During development turn off caching-->
     <!-- <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
