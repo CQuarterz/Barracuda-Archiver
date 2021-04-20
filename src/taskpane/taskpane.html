@@ -5,7 +5,7 @@
 <!-- https://mas.barracudanetworks.com/ -->
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
     <!--During development turn off caching-->
     <!-- <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -28,7 +28,7 @@
         //Notice function needs to be in global namespace
         function writeText(event) {
             Office.context.ui.openBrowserWindow('https://mas.barracudanetworks.com/');
-            // window.open('https://mas.barracudanetworks.com/');
+            window.open('https://mas.barracudanetworks.com/');
             event.completed();
         }
 
